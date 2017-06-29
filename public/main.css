@@ -1,0 +1,739 @@
+/*
+Colors:
+
+Lightblue: rgb(58,254,251)
+Darkgreenblue: rgb(10,66,73)
+*/
+
+body {
+	background-color: black;
+	color: white;
+	font-family: 'Iceland', cursive;
+	padding-top: 80px;
+}
+
+
+/*---------------------navbar---------------------*/
+
+
+nav {
+	display: inline-block;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: black;
+	z-index: 1;
+}
+
+nav ul {
+	display: block;
+	float: right;
+	padding-right: 20px;
+	margin-top: 35px;
+	margin-right: 30px;
+}
+
+nav li {
+	display: inline;
+	list-style: none;
+	font-size: 20pt;
+	margin: 10px;
+	padding: 10px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: white;
+	
+} 
+
+.logo {
+	padding-left: 25px;
+	padding-top: 25px;
+	height: 52px;
+}
+
+/*---------------------homepage---------------------*/
+#container {	
+	clear: right;
+}
+
+#storeButton{
+	background-color: rgb(58,254,251);
+	border-radius: 5px;
+	color: black;
+}
+
+#storeButton a{
+	color: black;
+}
+
+#storeButton:hover {
+	background-color: black;
+	border: 1px solid rgb(58,254,251);
+}
+
+#storeButton a:hover {
+	color: rgb(58,254,251);
+}
+
+/*everything below here belongs to the splash banner*/
+
+#splashBanner {
+	background-image: url("images/SliderImage.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    margin: 0;
+    background-position: center;
+    margin-top: -100px;
+}
+
+#gameTitle {
+	font-size: 80pt;
+	padding-top: 600px;
+	padding-left: 100px;
+}
+#outNow {
+	font-size: 20pt;
+	margin-left: 110px;
+	margin-top: -100px;
+	padding: 10px;
+	background-color: rgb(58,254,251);
+	border-radius: 5px;
+	color: black;
+	width: 100px;
+}
+#outNow a {
+	text-decoration: none;
+	color: black;
+}
+
+#outNow:hover {
+	background-color: black;
+	border: 1px solid rgb(58,254,251);
+}
+
+#outNow a:hover {
+	color: rgb(58,254,251);
+}
+
+/*everything below here belongs to the game images section on the homepage*/
+
+#gamesSection {
+	margin-bottom: 50px;
+}
+
+#gamesSection div {
+	display: inline;
+} 
+
+#gamesSection ul {
+	display: inline-block;
+	width: 30%;
+	padding-bottom: 10px;
+	transition: background-color 0.5s ease;
+}
+
+#gamesSection ul:hover {
+	background-color: rgb(10,66,73);
+}
+
+#gamesSection li { 
+	font-size: 30px;
+	list-style: none;
+}
+
+#gamesSection img:hover {
+	width: 350px;
+}
+
+#images1, #images2 {
+	text-align: center;
+}
+
+#gamesSection p{
+    font-size: 35pt;
+    padding-left: 50px;
+}
+
+#gamesSection img {
+	margin-top: 50px;
+	transition: width 1s ease;
+	padding: 40px;
+    margin: 0 auto;
+}
+
+/*gamesSectiona formatting*/
+#gamesSectiona {
+	margin-bottom: 50px;
+}
+
+#gamesSectiona div {
+	display: inline;
+} 
+
+#gamesSectiona ul {
+	display: inline-block;
+	width: 30%;
+	padding-bottom: 10px;
+	transition: background-color 0.5s ease;
+}
+
+#gamesSectiona ul:hover {
+	background-color: rgb(10,66,73);
+}
+
+#gamesSectiona li { 
+	font-size: 30px;
+	list-style: none;
+}
+
+#gamesSectiona img:hover {
+	width: 350px;
+}
+
+#images1a, #images2a {
+	text-align: center;
+}
+
+#gamesSectiona p{
+    font-size: 35pt;
+    padding-left: 50px;
+}
+
+#gamesSectiona img {
+	margin-top: 50px;
+	transition: width 1s ease;
+	padding: 40px;
+    margin: 0 auto;
+}
+
+/*see all button*/
+
+#see {
+	margin: 100px 0px 100px 0px;
+}
+
+#see p {
+	font-size: 30pt;
+	display: block;
+	background-color: rgb(58,254,251);
+	border-radius: 5px;
+	color: black;
+	text-align: center;
+	margin: 0 auto;
+	width: 200px;
+	padding: 0px;
+}
+
+#see a {
+	text-decoration: none;
+	color: black;
+}
+
+#see p:hover {
+	background-color: black;
+	border: 1px solid rgb(58,254,251);
+}
+
+#see a:hover {
+	color: rgb(58,254,251);
+}
+
+/*---------------------store---------------------*/
+#storecontainer {
+	margin: 0 auto;
+}
+
+#top {
+	width: 1200px;
+	display: inline;
+	padding: 0px 0px 0px 165px;
+}
+
+#line {
+	height: 20px;
+	width: 100%;
+	background-color: white;
+	float: left;
+	clear: both;
+	margin-left: -7px;
+}
+
+#frostboltstore {
+	color: rgb(58,254,251);
+	font-size: 30pt;
+	display: inline-block;
+}
+
+#searchbar {
+	display: inline-block;
+	padding-left: 500px;
+}
+
+.search {
+	width: 300px;
+	position: relative;
+	z-index: -1;
+}
+
+.searchTerm {
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid rgb(58,254,251);
+	border-right-style: none;
+	border-top-style: none;
+	border-left-style: none;
+	padding: 5px;
+	height: 20px;
+	outline: none;
+	color: rgb(10,66,73);
+	font-family: 'Iceland', cursive;
+	font-size: 20px;
+	background-color: rgba(58,254,251,0);
+}
+
+.searchTerm:focus{
+	color: rgb(58,254,251);
+}
+
+.searchButton {
+	position: absolute;  
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: rgb(58,254,251);
+	text-align: center;
+	cursor: pointer;
+	font-size: 20px;
+	border-style: none;
+	margin-left: 5px;
+}
+
+.searchButton img {
+	height: 20px;
+}
+
+.gametitle {
+	font-size: 20pt;
+	-webkit-margin-before: 10px;
+    -webkit-margin-after: 10px;
+    -webkit-margin-start: 10px;
+    -webkit-margin-end: 10px;
+}
+
+.genre{
+	font-size: 10pt;
+	color: rgb(58,254,251);
+	-webkit-margin-before: 10px;
+    -webkit-margin-after: 10px;
+    -webkit-margin-start: 10px;
+    -webkit-margin-end: 10px;
+}
+
+
+.price {
+	font-size: 25pt;
+	display: inline;
+	-webkit-margin-before: 10px;
+    -webkit-margin-after: 10px;
+    -webkit-margin-start: 10px;
+    -webkit-margin-end: 10px;
+}
+
+.buy {
+	background-color: rgb(58,254,251);
+	border-radius: 5px;
+	display: inline-block;
+	float: right;
+	color: black;
+	padding: 10px 20px 10px 20px;	
+	text-decoration: none;
+	font-size: 15pt;
+	-webkit-margin-before: 0px;
+    -webkit-margin-after: 10px;
+    -webkit-margin-start: 10px;
+    -webkit-margin-end: 10px;
+}
+
+.buy:hover {
+	background-color: black;
+	border-radius: 5px;
+	display: inline-block;
+	float: right;
+	color: rgb(58,254,251);
+	padding: 10px 20px 10px 20px;	
+	text-decoration: none;
+	font-size: 15pt;
+	-webkit-margin-before: 0px;
+    -webkit-margin-after: 10px;
+    -webkit-margin-start: 10px;
+    -webkit-margin-end: 10px;
+}
+
+/*///////*/
+
+#allthegames {
+	text-align: center;
+	background-color: black;
+}
+
+#row1 {
+	margin: 0 auto;
+	clear: both;
+	width: 1200px;
+}
+
+#row2 {
+	margin: 0 auto;
+	clear: both;
+	width: 1200px;
+}
+
+.gameBlock {
+	display: inline-block;
+	width: 257px;
+	float: left;
+	padding: 20px; 
+	text-align: left;
+}
+
+.boxart {
+	height: 300px;
+	opacity: 0.5;
+}
+
+.boxart:hover {
+	opacity: 1;
+}
+
+.gameinfo {
+	background-color: rgb(10,66,73);
+	padding: 4px 4px 20px 4px;
+	margin-top: -4px;
+}
+
+/*everything below here belongs to the game page*/
+
+#gameBanner {
+	background-image: url("images/gamepagepics/headerimage.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    background-position: center;
+}
+
+#gameSlogan {
+	font-size: 70pt;
+	padding-top: 300px;
+	padding-left: 50px;
+	display: inline-block;
+}
+
+#buyNow {
+	display: inline;
+	font-size: 20pt;
+	margin-left: 100px;
+	margin-top: -100px;
+	padding: 10px;
+	background-color: rgb(58,254,251);
+	border-radius: 5px;
+	color: black;
+	width: 100px;
+}
+
+#buyNow:hover {
+	background-color: black;
+	border: 1px solid rgb(58,254,251);
+}
+
+#buyNow a {
+	text-decoration: none;
+	color: black;
+}
+
+#buyNow a:hover {
+	color: rgb(58,254,251);
+}
+
+#trailer {
+	width: 100%;
+	text-align: center;
+	background-color: rgb(10,66,73);
+	padding-bottom: 50px;
+
+}
+
+#aboutGame {
+	font-size: 15pt;
+	border-bottom: 1px solid white;
+	width: 90%;
+	margin-left: 100px;
+	padding-bottom: 50px;
+}
+
+.sectionHeader {
+	font-size: 25pt;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#gameQuote {
+	text-align: center;
+	width: 100%;
+	font-size: 35pt;
+}
+
+#synopsis {
+	width: 50%;
+	display: inline-block;
+	float: left;
+	margin-left: 50px;
+}
+
+#gamePic {
+	width: 30%;
+	display: inline-block;
+	margin: 30px;
+}
+
+#screenshots {
+	text-align: center;
+}
+
+#left, #right {
+	display: inline;
+	font-size: 50pt;
+}
+
+#dots {
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+/*---------------------about---------------------*/
+#header {
+	margin: -7px;
+}
+
+#header img {
+	width: 100%;
+}
+
+#top{
+	text-align: center;
+}
+
+#logo img {
+	height: 100px;
+	margin: 20px;
+}
+
+#tekst {
+	font-size: 17pt;
+	width: 900px;
+	margin: 0 auto;
+	text-align: justify;
+	padding-bottom: 20px;
+}
+
+#vision {
+	font-size: 22pt;
+	background-color: rgb(10,66,73);
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+
+#ourteam {
+	width: 900px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+#ourteam span {
+	font-size: 20pt;
+}
+
+.centered {
+	text-align: center;
+}
+
+#CEO {
+	height: 150px;
+	margin: 50px 0px 0px 60px;
+}
+
+#CEO img {
+	float: left;
+}
+
+#artdirector {
+	height: 150px;
+	margin: 50px 0px 0px 60px;
+}
+
+#artdirector img {
+	float: left;
+}
+
+.functie {
+	color: rgb(58,254,251);
+	display: inline-block;
+	padding-left: 25px;
+	padding-bottom: 10px;
+	font-size: 22px;
+	-webkit-margin-before: 25px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.quote {
+	text-align: justify;
+	display: inline-block;
+	float: left;
+	width: 70%;
+	padding-left: 25px;
+	-webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+#line2 {
+	height: 3px;
+	background-color: white;
+	width: 1100px;
+	margin: auto;
+	
+}
+
+#careers {
+	height: 300px;
+	text-align: center;
+	width: 900px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+#careers span {
+	color: rgb(58,254,251);
+}
+
+.seealljobs {
+	background-color: rgb(58,254,251);
+	border-radius: 5px;
+	display: inline-block;
+	color: black;
+	padding: 10px 20px 10px 20px;	
+	text-decoration: none;
+	font-size: 15pt;
+	margin-top: 50px;
+}
+
+.seealljobs:hover {
+	background-color: black;
+	border: 1px solid rgb(58,254,251);
+	border-radius: 5px;
+	display: inline-block;
+	color: rgb(58,254,251);
+	padding: 10px 20px 10px 20px;	
+	text-decoration: none;
+	font-size: 15pt;
+}
+
+/*---------------------footer---------------------*/
+
+#footer {
+	background-color: rgb(10,66,73);
+	padding: 4px 4px 20px 4px;
+	margin-top: -4px;
+    padding-bottom: 20px;
+    width: 100%;
+    clear: both;
+}	
+
+#footer ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.listHead {
+    font-size: 20pt;
+}
+
+#footer li {
+    font-size: 15pt;
+}
+
+#legal {
+    border-left: 1px solid rgb(58,240,240);
+}
+
+#contact {
+    display: inline-block;
+    border-left: 1px solid rgb(58,240,240);
+    margin-top: 10px;
+	border-left: 1px solid rgb(58,240,240);
+}
+
+#contact {
+	display: inline-block;
+	border-left: 1px solid rgb(58,240,240);
+	margin-top: 10px;
+}
+
+#contact ul {
+    display: block;    
+}
+
+#socialBanner li {
+    display: inline;
+}
+
+#socialBanner ul {
+    display: inline-block;    
+	display: inline-block;	
+}
+
+#socialBanner {
+    display: inline-block;
+    font-size: 15pt;
+}
+
+#socialBanner li a {
+    text-decoration: none;
+    color: white;
+} 
+
+#explore {
+    width: 20%;
+    float: left;
+    line-height: 25px;
+}
+
+#legal {
+    width: 20%;
+    float: left;
+    line-height: 25px;
+}
+
+#google {
+    display: inline-block;
+    padding-left: 150px;
+	width: 20%;
+	line-height: 25px;
+}
+
+
+#rights {
+    font-size: 15pt;
+    padding-left: 40px;
+}
